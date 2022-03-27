@@ -1,0 +1,128 @@
+.centerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.helpContainer {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+
+  padding-top: 43px;
+
+  background-color: #222222;
+}
+
+@media screen and (min-width: 1080px) {
+  .helpContainer {
+    background-color: #000000;
+  }
+}
+
+.helpTitle {
+  width: 380px;
+
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 68px;
+
+  color: #ffffff;
+}
+
+.helpDesc {
+  width: 380px;
+
+  margin-top: 6px;
+
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #ffffff;
+
+  opacity: 0.8;
+}
+
+.helpBtnBg {
+  width: 380px;
+
+  background: #3d3d3d;
+  border-radius: 51px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.helpMetaMaskBtn {
+  width: 380px;
+
+  margin-top: 50px;
+}
+
+.helpMetaMaskBtn span {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.helpETHBtn {
+  width: 380px;
+
+  margin-top: 33px;
+}
+
+.helpETHBtn span {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.helpOpenseaBtn {
+  width: 380px;
+
+  margin-top: 33px;
+}
+
+.helpOpenseaBtn span {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.HelpEmailEntlyBtn {
+  width: 380px;
+
+  margin-top: 75px;
+
+  background: #02bd9b;
+  border-radius: 61px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.HelpEmailEntlyBtn span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 31px;
+
+  color: #ffffff;
+}
