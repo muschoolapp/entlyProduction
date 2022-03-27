@@ -1,0 +1,156 @@
+.DetailsNFTContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.detailsNFT {
+  max-width: 1030px;
+
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 30px;
+  margin-left: 22px;
+  margin-right: 23px;
+
+  border-radius: 10px;
+
+  padding: 28px 14px 47px 17px;
+
+  background-image: url("./../../assets/detailsNFTBg.png");
+}
+
+@media screen and (min-width: 1080px) {
+  .detailsNFT {
+    padding: 37px 68px 47px 100px;
+  }
+}
+
+.detailsNFT__basicInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailsNFT__heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detailsNFT__title {
+  width: 35%;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 45px;
+  letter-spacing: -0.045em;
+
+  color: #ffffff;
+}
+
+.detailsNFT__desc {
+  margin-top: 28px;
+
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+
+.fundInfo {
+  margin-top: 38px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundInfo .fundHeading {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 45px;
+  letter-spacing: -0.045em;
+
+  color: #ffffff;
+}
+
+.fundInfo .descShort {
+  margin-top: 16px;
+
+  font-weight: 400;
+  font-size: 23.7374px;
+  line-height: 21px;
+  letter-spacing: -0.045em;
+
+  color: #ffffff;
+}
+
+.fundGiver {
+  width: 100%;
+  max-width: 420px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 28px;
+}
+
+.fundGiver .ejiOrg {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fundGiver .ejiOrg .ejiOrgLogo {
+  display: flex;
+  align-items: center;
+}
+
+.fundGiver .ejiOrg .ejiName {
+  margin-left: 5px;
+
+  width: 50%;
+
+  font-weight: 400;
+  font-size: 23.7374px;
+  line-height: 21px;
+  letter-spacing: -0.045em;
+
+  color: #ffffff;
+}
+
+.fundGiver .dwOrg {
+  width: 100%;
+
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fundGiver .ejiFundRatio {
+  height: 68px;
+  width: 68px;
+
+  overflow: hidden;
+}
+
+.fundGiver .ejiFundRatio img {
+  height: 100%;
+  width: 100%;
+
+  object-fit: contain;
+}
