@@ -1,0 +1,130 @@
+.treeContainer {
+  padding-top: 90px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #222222;
+
+  font-family: "Poppins";
+}
+
+@media screen and (min-width: 1080px) {
+  .treeContainer {
+    background-color: #000000;
+  
+  }
+}
+
+.treeLogo {
+  height: 110px;
+  width: 110px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 599px) {
+    .treeLogo {
+        height: 130px;
+        width: 130px;
+        overflow: hidden;
+      }   
+}
+
+.treeLogo img {
+  height: 100%;
+  width: 100%;
+
+  object-fit: contain;
+}
+
+.treeDesc {
+  margin-top: 32px;
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+
+  text-align: center;
+
+  letter-spacing: -0.065em;
+
+  color: #ffffff;
+}
+
+@media screen and (min-width: 599px) {
+    .treeDesc {
+        font-size: 40px;
+      
+      }
+}
+
+.treeLearnMore{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.treeLearnMore .text {
+  margin-top: 54px;
+
+  font-weight: 500;
+  font-size: 16;
+  line-height: 25px;
+  letter-spacing: -0.065em;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 599px) {
+    .treeLearnMore .text {
+        margin-top: 60px;
+      
+        font-size: 24px;
+      }
+}
+
+
+
+.socialLinks {
+  margin-top: 6px;
+
+  display: flex;
+}
+
+@media screen and (min-width: 599px) {
+    .socialLinks {
+        margin-top: 10px;
+      
+        display: flex;
+      }
+}
+
+
+.socialLinksIcon {
+  height: 42px;
+  width: 42px;
+
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+@media screen and (min-width: 599px) {
+    .socialLinksIcon {
+        height: 50px;
+        width: 50px;
+      
+      }
+}
+
+
+
+.socialLinksIcon img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
