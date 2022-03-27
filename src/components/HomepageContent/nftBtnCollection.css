@@ -1,0 +1,63 @@
+.nftBtn {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nftCollBtn {
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #474747;
+    height: fit-content;
+  
+    margin-top: 8px;
+  
+    /* margin-left: 10%; */
+  }
+  
+  @media screen and (min-width: 760px) {
+    .nftCollBtn {
+      padding: 4px 14px;
+      margin-top: 0;
+    }
+  }
+  
+  .nftCollBtn span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.4648px;
+    line-height: 19px;
+  
+    color: #ffffff;
+  }
+  
+  @media screen and (min-width: 760px) {
+    .nftCollBtn span {
+      line-height: 39px;
+      font-size: 26px;
+    }
+  }
+  
+  .nftFundBtn {
+    display: none;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #02aebf;
+  }
+  
+  @media screen and (min-width: 1080px) {
+    .nftFundBtn {
+      display: flex;
+     
+    }
+  }
+  
+
+  .nftCollBtnDetails{
+   
+    padding: 2px 12px;
+  }
+
+  .nftCollBtnDetails span{ font-size: 18px;}

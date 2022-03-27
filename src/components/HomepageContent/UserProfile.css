@@ -1,0 +1,74 @@
+.userDetails {
+  display: flex;
+  align-items: center;
+
+  margin-top: 4px;
+}
+
+@media screen and (min-width: 760px) {
+  .userDetails {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .userDetails {
+    margin-top: 20px;
+  }
+}
+
+.userDetails .userImage {
+  height: 33px;
+  width: 33px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 6px;
+}
+
+@media screen and (min-width: 760px) {
+  .userDetails .userImage {
+    height: 68px;
+    width: 68px;
+  }
+}
+
+.userDetails .userImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.userDetails .userName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.8417px;
+  line-height: 21px;
+  letter-spacing: -0.065em;
+
+  color: #ffffff;
+}
+
+@media screen and (min-width: 760px) {
+  .userDetails .userName {
+    font-size: 28px;
+  }
+}
+
+.userDetails .verifiedTag {
+  margin-left: 3px;
+}
+
+.userDetails .verifiedTag img {
+  height: 100%;
+  width: 100%;
+
+  object-fit: contain;
+}
+
+@media screen and (min-width: 760px) {
+  .userDetails .verifiedTag {
+    height: 24px;
+    width: 24px;
+  }
+}
