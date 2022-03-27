@@ -1,0 +1,32 @@
+.detailsBg {
+  background-color: #222222;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 1080px) {
+  .detailsBg {
+    background-color: #000000;
+  }
+}
+
+.detailsBtn {
+  padding-left: 23px;
+  padding-right: 23px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin-bottom: 29px;
+}
+
+.bgGrayBtn {
+  background-color: #303030 !important;
+}
+
+.suggestionCardContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
