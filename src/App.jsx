@@ -56,7 +56,10 @@ const App = ({ isServerInfo }) => {
             {/* LEFT MENU  */}
             {/* <Logo /> */}
 
-            <NewLogo goback={goBack} />
+            <NavLink to="/Featured">
+             <NewLogo goback={goBack} />
+            </NavLink>
+              
 
             {/* CENTER MENU */}
 
