@@ -123,7 +123,7 @@ const App = ({ isServerInfo }) => {
                   Featured
                 </div>
 
-                <div className="menuList__item userProfileDropdown" onClick={onClickDropdown}><span><NavLink to="/UserProfile">Profiles</NavLink></span></div>
+                <div className="menuList__item userProfileDropdown" onClick={onClickDropdown}><span><NavLink to="/UserProfile">Profile</NavLink></span></div>
               </div>
             </div>
           )}
