@@ -126,14 +126,14 @@ font-weight: 500;
     width: 100%;
 }
 .footerBtn{
-    padding: 12px 62px;
+    padding: 5px 20px;
     background-color: #494949;
     border-radius: 32px;
 }
 
 @media screen and (min-width: 1080px) {
     .footerBtn{
-        padding: 12px 62px;
+        padding: 5px 20px;
     }
 }
 
@@ -151,7 +151,7 @@ color: #FFFFFF;
 
 @media screen and (min-width: 1080px) {
     .footerBtn span{
-    font-size: 29px;
+    font-size: 20px;
     line-height: 44px;
     }
 }
