@@ -122,7 +122,7 @@ const SuggestionCard = (props) => {
                 >
                   Mint
                   <Text strong className="bidValue">
-                    {props.bid} ETH ({count}/10 Minted)
+                    {props.bid} ETH ({count}/{props.editionsMinted} Minted)
                   </Text>
                   <EthereumIcon className="ethIcon" />
                 </button>
