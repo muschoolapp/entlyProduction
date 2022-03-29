@@ -81,7 +81,7 @@ const SuggestionCard = (props) => {
       <div className="suggestCard">
         <Row wrap={false}>
           <Col flex="auto" className="image_box">
-            <VideoPlayer src={props.image} alt={props.title} className="image"/>
+            <VideoPlayer src={props.media} alt={props.title} className="image"/>
           </Col>
 
           <Col flex="auto">
