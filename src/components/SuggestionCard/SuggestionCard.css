@@ -72,6 +72,12 @@ h1.ant-typography.title {
   display: none;
 }
 
+@media (min-width: 320px) {
+  .image_box {
+    max-width: 242px;
+  }
+}
+
 @media (min-width: 576px) {
   .image_box {
     max-width: 242px;
