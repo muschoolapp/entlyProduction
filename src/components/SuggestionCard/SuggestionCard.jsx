@@ -28,7 +28,11 @@ const SuggestionCard = (props) => {
     console.log(description)
     setFile(props.media)
     console.log(file)
-  }
+  };
+  
+  const handleOpensea = () => {
+    window.open(`https://testnets.opensea.io/collection/hidden-in-plain-sight-vr5evnuheq`)
+  };
 
   const onSubmit = async (e) => {
     e.preventDefault();
@@ -111,7 +115,7 @@ const SuggestionCard = (props) => {
                     </Row>
                   </div>
                   <div className="btnViewOpenSea">
-                    <Button shape="round" onClick={()=>{"https://testnets.opensea.io/"}}>View on OpenSea</Button>
+                    <Button shape="round" onClick={handleOpensea}>View on OpenSea</Button>
                   </div>
                 </Flex>
               </Col>
