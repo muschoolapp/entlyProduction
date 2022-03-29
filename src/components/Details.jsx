@@ -10,16 +10,6 @@ import "./details.css";
 import UserProfile from "./HomepageContent/UserProfile";
 import DetailsNFT from "./Details/DetailsNFT";
 
-import mp41 from "../nftFiles/01-FREE-WILL.mp4";
-import mp42 from "../nftFiles/02-MODERN-VAMP.mp4";
-import mp43 from "../nftFiles/03-GOOD-TROUBLE.mp4";
-import mp44 from "../nftFiles/04-SELMA.mp4";
-import mp45 from "../nftFiles/05-JESUS-THE-LIGHT-OF-THE-WORLD.mp4";
-import mp46 from "../nftFiles/06-THE-COUNCIL.mp4";
-import mp47 from "../nftFiles/07-THIS-LITTLE-LIGHT-OF-MINE.mp4";
-import mp48 from "../nftFiles/exclusive1.mp4"
-import mp49 from "../nftFiles/exclusive2.mp4"
-
 const { Text, Title } = Typography;
 
 const Details = (props) => {
@@ -122,7 +112,6 @@ const Details = (props) => {
         <SuggestionCard
           bid="0.2"
           royalty="30"
-          image={mp41}
           title="Free Will"
           editionsMinted="10"
           description="Free will is a very important lesson I learned in some of my studies and has guided me in my personal and professional decisions."
@@ -131,7 +120,6 @@ const Details = (props) => {
         <SuggestionCard
           bid="0.2"
           royalty="30"
-          image={mp42}
           title="Modern Vamp"
           editionsMinted="10"
           description="A nod to the future and the hope of what can happen."
@@ -140,7 +128,6 @@ const Details = (props) => {
         <SuggestionCard
           bid="0.2"
           royalty="30"
-          image={mp43}
           title="Good Trouble"
           editionsMinted="10"
           description="Inspired by the late John Lewis and the struggles he had to endure in his quest for civil rights. Good Trouble is what happened on Bloody Sunday."
@@ -149,7 +136,6 @@ const Details = (props) => {
         <SuggestionCard
           bid="0.2"
           royalty="30"
-          image={mp44}
           title="Selma"
           editionsMinted="10"
           description="Selma is inspired by what happened for the rest of John Lewis’s life following bloody Sunday."
@@ -158,7 +144,6 @@ const Details = (props) => {
         <SuggestionCard
           bid="0.2"
           royalty="30"
-          image={mp45}
           title="Jesus Light of the World"
           editionsMinted="10"
           description="This is a traditional hymn that’s been sung throughout history in the black church and in civil rights marches and rallies. An uplifting song for all people."
@@ -167,7 +152,6 @@ const Details = (props) => {
         <SuggestionCard
           bid="0.2"
           royalty="30"
-          image={mp46}
           title="The Council"
           editionsMinted="10"
           description="Inspired by the struggles and many lives lost during the fight for equality and civil rights"
@@ -176,7 +160,6 @@ const Details = (props) => {
         <SuggestionCard
           bid="0.2"
           royalty="30"
-          image={mp47}
           title="This Little Light of Mine"
           editionsMinted="10"
           description="I chose to record this song because it symbolizes each individual’s ability to affect and impact humanity in a positive way."
@@ -185,7 +168,6 @@ const Details = (props) => {
          <SuggestionCard
           bid="0.4"
           royalty="30"
-          image={mp48}
           title="Exclusive 1"
           editionsMinted="1"
           description="One of a kind exclusive content from the Hidden in Plain Sight"
@@ -194,7 +176,6 @@ const Details = (props) => {
          <SuggestionCard
           bid="0.4"
           royalty="30"
-          image={mp49}
           title="Exclusive 2"
           editionsMinted="1"
           description="One of a kind exclusive content from the Hidden in Plain Sight"
