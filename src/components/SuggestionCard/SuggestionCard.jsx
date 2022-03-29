@@ -65,7 +65,7 @@ const SuggestionCard = (props) => {
 
         // Display alert
         alert(
-          `NFT successfully minted. Contract address - ${contractAddress} and Token ID - ${tokenId}`
+          `Success! View in the Wallet tab or at https://testnets.opensea.io/assets/${contractAddress}/${tokenId}`
         );
       } catch (err) {
         console.error(err);
