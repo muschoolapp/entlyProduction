@@ -16,7 +16,6 @@ export default function Tree() {
           For every transaction,<br /> we’ll plant a tree.
         </div>
         <div className="treeLearnMore">
-          <div className="text">Learn more</div>
           <div className="socialLinks">
             <div className="socialLinksIcon twitter">
               <img src={TwitterLogo} alt="Join twitter" />
