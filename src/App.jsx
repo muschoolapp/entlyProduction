@@ -178,7 +178,7 @@ const App = ({ isServerInfo }) => {
               <img src={discordIcon} loading="lazy" alt="" className="image-20" />
             </a>
 
-            <a href="https://twitter.com/entlyNFT">
+            <a href="mailto:support@ently.io">
               <img src={mailIcon} loading="lazy" alt="" />
             </a>
           </div>
