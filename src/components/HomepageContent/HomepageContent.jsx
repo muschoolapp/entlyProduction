@@ -10,20 +10,22 @@ import NFTBtnCollection from './NFTBtnCollection';
 export default function () {
   return (
     <div className="homepageContent">
-      <div className="recordImage">
-        <img src={RecordImg} alt="RecordImage" />
-      </div>
-
-      <div className="recordDetails">
-        <div className="headingInfo">
-          <div className="title">
-            <NavLink to="/details">Hidden in Plain Sight</NavLink>
-          </div>
-
-          <UserProfile />
+      <NavLink to="/details">
+        <div className="recordImage">
+          <img src={RecordImg} alt="RecordImage" />
         </div>
-        <NFTBtnCollection />
-      </div>
+
+        <div className="recordDetails">
+          <div className="headingInfo">
+            <div className="title">
+              Hidden in Plain Sight
+            </div>
+
+            <UserProfile />
+          </div>
+          <NFTBtnCollection />
+        </div>
+      </NavLink>
     </div>
   );
 }
