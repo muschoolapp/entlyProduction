@@ -101,7 +101,9 @@ const App = ({ isServerInfo }) => {
         <div className="smallMenu">
           <div className="smallMenu__navbar">
             <div className="logo">
-              <NewLogo />
+               <NavLink to="/Featured">
+                <NewLogo />
+               </NavLink>
             </div>
             <div className="smallMenu__rightMenu">
               <div className="connectBtn">
