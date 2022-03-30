@@ -72,15 +72,59 @@ h1.ant-typography.title {
   display: none;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 240px) {
   .image_box {
-    max-width: 242px;
+    max-width: 175px;
+  }
+
+  .image {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+  }
+
+  h1.ant-typography.title {
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 45px;
+    font-size: 20px;
+    letter-spacing: -0.045em;
+    margin: 0;
+  }
+  .info {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: -0.065em;
+    color: #ffffff;
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 560px) {
   .image_box {
     max-width: 242px;
+  }
+
+  .image {
+    width: 242px;
+    height: 242px;
+    object-fit: cover;
+  }
+
+  h1.ant-typography.title {
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 45px;
+    font-size: 30px;
+    letter-spacing: -0.045em;
+    margin: 0;
+  }
+  .info {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: -0.065em;
+    color: #ffffff;
   }
 }
 
