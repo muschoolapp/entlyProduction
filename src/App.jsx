@@ -88,11 +88,11 @@ const App = ({ isServerInfo }) => {
             </Menu>
             <div style={styles.headerRight}>
               {/* <Chains /> */}
-              <div style={styles.menuProfile} className="userProfile">
+{/* <div style={styles.menuProfile} className="userProfile">
                 { isAuthenticated ?
                   <span><NavLink to="/UserProfile">Profile</NavLink></span>
                 : null}
-              </div>
+              </div> */}
               <Account />
             </div>
           </Header>
@@ -127,7 +127,7 @@ const App = ({ isServerInfo }) => {
                   Featured
                 </div>
 
-                <div className="menuList__item userProfileDropdown" onClick={onClickDropdown}>{ isAuthenticated ? <span><NavLink to="/UserProfile">Profile</NavLink></span> : null} </div>
+            {/*<div className="menuList__item userProfileDropdown" onClick={onClickDropdown}>{ isAuthenticated ? <span><NavLink to="/UserProfile">Profile</NavLink></span> : null} </div>*/}
               </div>
             </div>
           )}
