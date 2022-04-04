@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 contract HiddenInPlainSight is ERC721, ERC721Enumerable, ERC721URIStorage {
     using SafeMath for uint256;
-    uint public constant mintPrice = (4 ether/10);
+    uint public constant mintPrice = 0;
 
     address public owner;
     address public royalty;
@@ -52,9 +52,9 @@ contract HiddenInPlainSight is ERC721, ERC721Enumerable, ERC721URIStorage {
         _safeMint(msg.sender, mintIndex);
         _setTokenURI(mintIndex, _uri);
 
-        payable(owner).transfer(mintPrice * 15 /100);
-        payable(royalty).transfer(mintPrice * 65 /100);
-        payable(ngo1).transfer(mintPrice/10);
-        payable(ngo2).transfer(mintPrice/10);
+        payable(owner).transfer(msg.value * 15 /100);
+        payable(royalty).transfer(msg.value * 65 /100);
+        payable(ngo1).transfer(msg.value/10);
+        payable(ngo2).transfer(mas.value/10);
     }
 }
